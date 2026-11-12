@@ -54,3 +54,15 @@ h1, h2, h3 {
     text-decoration: none;
     font-weight: bold;
 }
+/* 遊戲封面圖片樣式 */
+.game-cover {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.game-cover img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}

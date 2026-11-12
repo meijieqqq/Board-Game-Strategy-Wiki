@@ -1,0 +1,56 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid #1a365d;
+    margin-bottom: 20px;
+}
+h1, h2, h3 {
+    color: #1a365d;
+}
+.game-list {
+    list-style-type: none;
+    padding: 0;
+}
+.game-list li {
+    background: white;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.game-list a {
+    text-decoration: none;
+    color: inherit;
+}
+.game-list a:hover h3 {
+    color: #0056b3;
+}
+/* 子頁面專用樣式 */
+.info-card {
+    background: #eef2f7;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.strategy {
+    background: #fff8e1;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 5px solid #ffc107;
+}
+.back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #1a365d;
+    text-decoration: none;
+    font-weight: bold;
+}
